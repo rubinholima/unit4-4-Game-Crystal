@@ -4,7 +4,8 @@
 
 
 
-html, body {
+html,
+body {
     background-image: url(../images/11.jpg);
     background-size: cover;
 }
@@ -18,9 +19,9 @@ h1 {
 }
 
 p {
-    background-color: rgb(74, 163, 230); 
+    background-color: rgb(74, 163, 230);
     font-family: 'Rajdhani', sans-serif;
-    text-align: justify; 
+    text-align: justify;
     font-style: italic;
     padding: 15px;
     color: rgb(0, 0, 0);
@@ -30,18 +31,21 @@ p {
     text-align: center;
     color: aliceblue;
     font-weight: bold;
-    height:150px;
-    border:2px solid #000; 
-    background-color:rgb(19, 125, 218);
+    height: 150px;
+    border: 2px solid #000;
+    background-color: rgb(19, 125, 218);
 }
 
 img {
-    margin-top: 70px;
-    margin-left: 144px;
+    height: 100px;
+}
+
+.gems {
+    margin-top: 80px;
+    margin-left: 138px;
+    height: 105px;
     background-color: rgb(27, 94, 194);
     border: 3px solid black !important;
-    
-
 }
 
 #magicNumber {
@@ -50,8 +54,8 @@ img {
     margin-top: -148px;
     color: aliceblue;
     text-align: center;
-    
-} 
+
+}
 
 #win {
     font-size: 25px;
@@ -60,8 +64,8 @@ img {
     color: aliceblue;
     text-align: left;
     padding-left: 20px;
-    
-} 
+
+}
 
 #loss {
     font-size: 25px;
@@ -70,8 +74,8 @@ img {
     color: aliceblue;
     text-align: left;
     padding-left: 20px;
-    
-} 
+
+}
 
 #score {
     font-size: 110px;
@@ -79,5 +83,5 @@ img {
     margin-top: -148px;
     color: aliceblue;
     text-align: center;
-    
-} 
+
+}
