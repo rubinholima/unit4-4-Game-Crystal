@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+
+
+    <!-- reset file and style.css   -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Javascript file game.js -->
+    <script src="./assets/javascript/game.js"></script>
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>CrystalsCollector!</h1>
+        <p>
+            You will given a random number at the start of the game. There are four crystals below. By Clicking on a
+            crystal you will add a specific amount to your total score. You win the game by matching your total score to
+            random number, you lose the game if your total score goes above the random number. 
+            The Value of each crystal is hidden from you until you click on it.
+        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box">The Magic Number</div>
+                <div id="magicNumber">00</div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="box">Win / Loss</div>
+                <div id="win">WINS : 00</div> <br>
+                <div id="loss">LOSSES : 00</div>
+            </div>
+           
+            <div class="col-md-3">
+                <div class="box">Your Score Is</div>
+                <div id="score">00</div>
+            </div>
+        </div>
+        <img class="gems" id="Gem1" src="./assets/images/Gem1.png" height="100px">
+        <img class="gems" id="Gem2" src="./assets/images/Gem2.png" height="100px">
+        <img class="gems" id="Gem3" src="./assets/images/Gem3.png" height="100px">
+        <img class="gems" id="Gem4" src="./assets/images/Gem4.png" height="100px">
+
+        
+    </div>
+</body>
+
+</html>
