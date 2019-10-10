@@ -58,9 +58,9 @@ img {
 }
 
 #win {
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Big Shoulders Display', cursive;
-    margin-top: -110px;
+    margin-top: -123px;
     color: aliceblue;
     text-align: left;
     padding-left: 20px;
@@ -68,9 +68,9 @@ img {
 }
 
 #loss {
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Big Shoulders Display', cursive;
-    margin-top: -8px;
+    margin-top: -19px;
     color: aliceblue;
     text-align: left;
     padding-left: 20px;

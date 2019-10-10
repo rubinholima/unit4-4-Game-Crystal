@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector Game</title>
 
-
     <!-- reset file and style.css   -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -23,6 +22,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
+
+    <!-- Javascript file game.js -->
+    <script src="./assets/javascript/game.js"></script>
 
 
 </head>
@@ -44,8 +46,8 @@
 
             <div class="col-md-3">
                 <div class="box">Win / Loss</div>
-                <div id="win">WINS : </div> <br>
-                <div id="loss">LOSSES : </div>
+                <div id="win">WINS ........ : </div> <br>
+                <div id="loss">LOSSES ..... : </div>
             </div>
 
             <div class="col-md-3">
@@ -53,6 +55,31 @@
                 <div id="score"></div>
             </div>
         </div>
+
+        <div id="youLose" style="display: none">
+
+            <h1>You Lose</h1>
+
+            <div class="container-fluid">
+                <div class="col-sm-12 text-center">
+                    <button type="button" class="btn btn-primary center-block">Play Again?</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="youWin" style="display: none">
+
+            <h1>Congratulations - You Win!</h1>
+
+            <div class="container-fluid">
+                <div class="col-sm-12 text-center">
+                    <button type="button" class="btn btn-primary center-block">Play Again?</button>
+                </div>
+            </div>
+
+
+        </div>
+
         <button class="gems" id="gem1"><img src="./assets/images/Gem1.png"></button>
         <button class="gems" id="gem2"><img src="./assets/images/Gem2.png"></button>
         <button class="gems" id="gem3"><img src="./assets/images/Gem3.png"></button>
@@ -61,7 +88,5 @@
 
     </div>
 </body>
-<!-- Javascript file game.js -->
-<script src="./assets/javascript/game.js"></script>
 
 </html>
