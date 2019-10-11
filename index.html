@@ -46,19 +46,19 @@
 
             <div class="col-md-3">
                 <div class="box">Win / Loss</div>
-                <div id="win">WINS ........ : </div> <br>
-                <div id="loss">LOSSES ..... : </div>
+                <div id="win">WINS ........ : 0 </div> <br>
+                <div id="loss">LOSSES ..... : 0 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="box">Your Score Is</div>
-                <div id="score"></div>
+                <div id="score">00</div>
             </div>
         </div>
 
         <div id="youLose" style="display: none">
 
-            <h1>You Lose</h1>
+            <h1 id="loseColor">You Lose, Try Again!</h1>
 
             <div class="container-fluid">
                 <div class="col-sm-12 text-center">
@@ -69,7 +69,7 @@
 
         <div id="youWin" style="display: none">
 
-            <h1>Congratulations - You Win!</h1>
+            <h1 id="winColor">Congratulations - You Win!</h1>
 
             <div class="container-fluid">
                 <div class="col-sm-12 text-center">
@@ -80,11 +80,12 @@
 
         </div>
 
-        <button class="gems" id="gem1"><img src="./assets/images/Gem1.png"></button>
-        <button class="gems" id="gem2"><img src="./assets/images/Gem2.png"></button>
-        <button class="gems" id="gem3"><img src="./assets/images/Gem3.png"></button>
-        <button class="gems" id="gem4"><img src="./assets/images/Gem4.png"></button>
-
+        <div id="gemsButton">
+            <button class="gems" id="gem1"><img src="./assets/images/Gem1.png"></button>
+            <button class="gems" id="gem2"><img src="./assets/images/Gem2.png"></button>
+            <button class="gems" id="gem3"><img src="./assets/images/Gem3.png"></button>
+            <button class="gems" id="gem4"><img src="./assets/images/Gem4.png"></button>
+        </div>
 
     </div>
 </body>
